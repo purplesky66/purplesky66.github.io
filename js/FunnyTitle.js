@@ -9,7 +9,7 @@
      }
      else {
          $('[rel="icon"]').attr('href', "/img/trhx2.png");
-         document.title = 'ヾ(Ő∀Ő3)ノ你帅就回来！' + OriginTitle;
+         document.title = '' + OriginTitle;
          titleTime = setTimeout(function () {
              document.title = OriginTitle;
          }, 2000);
